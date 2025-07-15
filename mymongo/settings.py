@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'mydjango',
         'ENFORCE_SCHEMA': False,
         'CLIENT': {
-            'host': 'mongodb+srv://mbuguam443:Me32323383%23%26@cluster0.3l3inku.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0',  # paste the MongoDB Atlas connection string here
+            'host': 'mongodb+srv://mbuguam443:Me32323383%23%26@cluster0.3l3inku.mongodb.net/mydb?retryWrites=true&w=majority&tls=true&tlsAllowInvalidCertificates=true',  # paste the MongoDB Atlas connection string here
             'username': 'mbuguam443',
             'password': 'Me32323383#&',
             'connectTimeoutMS': 5000,
