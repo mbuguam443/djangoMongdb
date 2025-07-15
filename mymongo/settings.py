@@ -83,6 +83,8 @@ DATABASES = {
             'host': 'mongodb+srv://mbuguam443:<Me32323383#&>@cluster0.3l3inku.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',  # paste the MongoDB Atlas connection string here
             'username': 'mbuguam443',
             'password': 'Me32323383#&',
+            'connectTimeoutMS': 5000,
+            'serverSelectionTimeoutMS': 5000,
         }
     }
 }
