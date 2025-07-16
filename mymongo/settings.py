@@ -85,6 +85,7 @@ DATABASES = {
             'password': 'Me32323383#&',
             'connectTimeoutMS': 5000,
             'serverSelectionTimeoutMS': 5000,
+            'tls': True
         }
     }
 }
